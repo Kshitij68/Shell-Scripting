@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # All UNIX commands are lower case
 
 # Know time when logged in
@@ -45,5 +46,18 @@ rm -r Documents
 # To remove  directory 'Documents'
 rmdir Documents
 
-# Video 7
-# https://www.youtube.com/watch?v=8CEpUQCJKhc&list=PL7B7FA4E693D8E790&index=7
+# cp
+# Copy files from one location to another
+cp old Downloads/new_old
+
+# ln
+# Links are two kinds: (i) Soft links (ii) Hard Links
+# Hard Link essentially copies link of one file to another. If the parent file is deleted the clone sustains the data
+ln old new
+# Soft Link essentially copies link of one file to another. If the parent file is deleted the clone does not sustain the data
+ln -s old old_soft
+
+# ls
+#
+# Video 9
+# https://www.youtube.com/watch?v=bFL05iO9k2M&list=PL7B7FA4E693D8E790&index=9
