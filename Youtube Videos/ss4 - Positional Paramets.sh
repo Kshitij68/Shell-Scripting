@@ -7,4 +7,4 @@ echo "Provde a filename"
 read name
 mv $1 $name
 
-# Run as bash ss4.sh <input_file_name>
+# Run as bash ss4 - Positional Paramets.sh <input_file_name>
